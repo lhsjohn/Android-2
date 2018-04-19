@@ -64,7 +64,8 @@ public class Activity_Framelayout extends Activity {
                 //发送一条空消息通知系统改变5个ImageView
                 handler.sendEmptyMessage(0x123);
             }
-        },0,1000);
+        },1,1000);
+
 
     }
 }
