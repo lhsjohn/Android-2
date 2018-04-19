@@ -23,6 +23,8 @@
          <activity android:name=".Activity_Linearlayout_Horizontal"></activity>
         <activity android:name=".Activity_Linearlayout_Vertical"></activity>
         <activity android:name=".Activity_Linearlayout_Left"></activity>
+        <activity android:name=".Activity_Relativelayout"></activity>
+        <activity android:name=".Activity_Framelayout"></activity>
     </application>
 
 

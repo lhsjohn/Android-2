@@ -25,6 +25,24 @@ public class MainActivity extends Activity {
                                  }
         );
 
+        Button btn2=findViewById(R.id.btn2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,Activity_Relativelayout.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn3=findViewById(R.id.btn3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,Activity_Framelayout.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
