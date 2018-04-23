@@ -32,8 +32,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:id="@+id/btn5_framelayout"
+        android:background="@mipmap/ic_launcher"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/btn_return_framelayout"
+        />
 
 
 

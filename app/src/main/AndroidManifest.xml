@@ -25,6 +25,8 @@
         <activity android:name=".Activity_Linearlayout_Left"></activity>
         <activity android:name=".Activity_Relativelayout"></activity>
         <activity android:name=".Activity_Framelayout"></activity>
+        <activity android:name=".Activity_Tablelayout"></activity>
+        <activity android:name=".Activity_Gridlayout"></activity>
     </application>
 
 

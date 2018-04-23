@@ -1,10 +1,13 @@
 package com.example.lihuashuo.uc1;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.Nullable;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import java.util.Timer;
@@ -64,8 +67,15 @@ public class Activity_Framelayout extends Activity {
                 //发送一条空消息通知系统改变5个ImageView
                 handler.sendEmptyMessage(0x123);
             }
-        },1,1000);
-
+        },0,1000);
+        Button button=findViewById(R.id.btn_return_framelayout);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Activity_Framelayout.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
