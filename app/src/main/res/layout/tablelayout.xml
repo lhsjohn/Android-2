@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <TableRow android:layout_gravity="center_vertical"
+            android:paddingBottom="35dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="第一个Button"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="第二个Button"
+                />
+        </TableRow>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:text="第三个Button"
+             android:layout_marginBottom="30dp"
+             />
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="第四个Button"
+
+            />
+
+    </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="返回"
+            android:id="@+id/btn_return_tablelayout"
+            android:layout_marginTop="200dp"
+            />
+
+    </TableLayout>
+
